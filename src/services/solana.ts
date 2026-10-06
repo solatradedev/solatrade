@@ -18,7 +18,7 @@ export async function getBalance(pubkey: string): Promise<number> {
   return balance / 1e9
 }
 
-export async function getNftsByOwner(owner: string) {
+export async function getNftsByOwner(_owner: string) {
   // Placeholder — would use Metaplex findAllByOwner in production
   return []
 }
